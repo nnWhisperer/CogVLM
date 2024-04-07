@@ -112,7 +112,7 @@ def simple_image_chat(use_stream=True, img_path=None):
             "content": "Do you think this is a spring or winter photo?"
         },
     ]
-    create_chat_completion("cogvlm-chat-17b", messages=messages, use_stream=use_stream)
+    create_chat_completion("cogagent-chat-hf", messages=messages, use_stream=use_stream)
 
 
 if __name__ == "__main__":
